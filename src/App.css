@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.content,
+.header {
+	padding: 20px;
+}
+
+.name {
+	font-size: 7vh;
+	margin: 1.5vh 0;
+}
+
+.college {
+	font-weight: bold;
+}
+
+.college,
+.details {
+	margin-left: 1vh;
+}
