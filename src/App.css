@@ -6,19 +6,109 @@
 
 .content,
 .header {
-	padding: 20px;
+	padding: 50px;
 }
 
+.header {
+	background-image: url('./Assets/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: local;
+	height: 70vh;
+	color: #efefef;
+}
+
+.header > img {
+	height: 25vh;
+	width: 25vh;
+	position: absolute;
+	z-index: 2;
+}
+.header_image-1 {
+	top: 2vh;
+	right: 2vh;
+}
+.header_image-2 {
+	bottom: 32vh;
+	right: 90vh;
+}
+.header > video {
+	height: 40vh;
+	position: absolute;
+	top: 15vh;
+	right: 20vh;
+	z-index: 1;
+}
 .name {
 	font-size: 7vh;
-	margin: 1.5vh 0;
-}
-
-.college {
-	font-weight: bold;
+	margin-top: 20vh;
 }
 
 .college,
 .details {
 	margin-left: 1vh;
+	font-weight: bold;
+	font-size: 2.2vh;
+}
+h3 {
+	text-align: center;
+	font-size: 5vh;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
+
+h4 {
+	font-size: 3.5vh;
+}
+ul {
+	list-style: none;
+}
+
+.flex-box {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+p {
+	font-size: 2.5vh;
+}
+
+.course_list > li {
+	font-size: 2.5vh;
+}
+
+.flexcard_half {
+	width: 50%;
+	text-align: center;
+	min-width: 300px;
+}
+
+.flexcard_quarter {
+	width: 25%;
+	min-width: 200px;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.header_image-1,
+	.header_image-2 {
+		display: none;
+	}
+	.header > video {
+		position: unset;
+	}
+	.name {
+		margin-top: 2vh;
+	}
+	.header {
+		padding: 0;
+		text-align: center;
+	}
+	.header > video {
+		width: 100%;
+		height: unset;
+		margin-top: 5vh;
+	}
 }

@@ -6,17 +6,23 @@ function App() {
 		<React.Fragment>
 			<header className="header">
 				<div className="name">Devank Thawre</div>
-				<div className="college">IIT KHARAGPUR</div>{' '}
+				<div className="college">IIT KHARAGPUR</div>
 				<div className="details"> MANUFACTURING SCIENCE AND ENGINEERING (B.TECH)</div>
 				<div className="details"> Dept. Of MECHANICAL ENGG.</div>
 				<div className="details"> Expected April 2022</div>
+				<img className="header_image-1" src={require('./Assets/pc1.jpg')} alt="image1" />
+				<img className="header_image-2" src={require('./Assets/pc7.jpg')} alt="image2" />
+				<video autoPlay loop>
+					<source src={require('./Assets/Tap.mp4')} type="video/mp4" />
+					Browser does not support mp4
+				</video>
 			</header>
 			<div className="content">
 				<h3>COURSEWORK</h3>
-				<div>
-					<div>
+				<div className="flex-box">
+					<div className="flexcard_half">
 						<h4>University</h4>
-						<ul>
+						<ul className="course_list">
 							<li>Kinematics of Machines</li>
 							<li>Dynamics </li>
 							<li> Heat Transfer </li>
@@ -24,29 +30,29 @@ function App() {
 							<li>Basic electronics</li>
 						</ul>
 					</div>
-					<div>
+					<div className="flexcard_half">
 						<h4>Certification</h4>
-						<ul>
+						<ul className="course_list">
 							<li>Embedding sensors and motors specialization </li>
 							<li>(University of Colorado Boulder)</li>
 						</ul>
 					</div>
 				</div>
 				<h3>SKILLS</h3>
-				<div>
-					<div>
+				<div className="flex-box">
+					<div className="flexcard_quarter">
 						<h4>CAD CAE</h4>
 						<p>SolidWorks | OnShape | Ansys (Structural, Fluent)</p>
 					</div>
-					<div>
+					<div className="flexcard_quarter">
 						<h4>MS OFFICE</h4>
 						<p>Word | PowerPoint | Excel</p>
 					</div>
-					<div>
+					<div className="flexcard_quarter">
 						<h4>MEDIA EDIITING</h4>
 						<p> Adobe Photoshop </p>
 					</div>
-					<div>
+					<div className="flexcard_quarter">
 						<h4>OTHERS</h4>
 						<p>Arduino</p>
 					</div>
