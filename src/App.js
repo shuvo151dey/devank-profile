@@ -11,7 +11,10 @@ function App() {
 				<div className="details"> Dept. of MECHANICAL ENGG.</div>
 				<div className="details"> Expected April 2022</div>
 				<img className="header_image-1" src={require('./Assets/pc1.jpg')} alt="image1" />
-				<img className="header_image-2" src={require('./Assets/pc7.jpg')} alt="image2" />
+				<img className="header_image-2" src={require('./Assets/Pc5.jpg')} alt="image2" />
+				<img className="header_image-3" src={require('./Assets/diff mount.jpg')} alt="image2" />
+				<img className="header_image-4" src={require('./Assets/hand aux.jpg')} alt="image2" />
+
 				<video autoPlay loop muted>
 					<source src={require('./Assets/Tap.mp4')} type="video/mp4" />
 					Browser does not support mp4

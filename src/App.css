@@ -32,6 +32,18 @@
 	bottom: 32vh;
 	right: 90vh;
 }
+.header_image-3 {
+	bottom: 30vh;
+	right: 0;
+	height: 25vh !important;
+	width: unset !important;
+}
+.header_image-4 {
+	top: 2vh;
+	right: 90vh;
+	height: 25vh !important;
+	width: unset !important;
+}
 .header > video {
 	height: 40vh;
 	position: absolute;
@@ -102,7 +114,9 @@ a:visited {
 }
 @media (max-width: 1000px) {
 	.header_image-1,
-	.header_image-2 {
+	.header_image-2,
+	.header_image-3,
+	.header_image-4 {
 		display: none;
 	}
 	.header > video {
