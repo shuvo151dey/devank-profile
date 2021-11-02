@@ -91,6 +91,7 @@ function App() {
 						purposes of the engine and its related components.
 					</p>
 				</div>
+				
 				<h3>PROJECTS</h3>
 				<div className="content-box">
 					<h4>
@@ -121,6 +122,21 @@ function App() {
 							Link
 						</a>{' '}
 						to project.
+					</p>
+				</div>
+				<div className="content-box">
+					<h4>
+						<span>WALL CLIMBING ROBOT</span>
+					</h4>
+					<p>SUPERVISOR: Dr Dilip Kumar Pratihar | Mechanical Engineering Department</p>
+					<p>August 2021 – Ongoing | IIT Kharagpur</p>
+					<p>
+						Developed a wall climbing robot for climbing huge pipelines, walls, etc which is capable of repairing 
+						damaged parts for the same. Developed the bot's mechanical framework using kinematical design for smooth 
+						translation on irregular surfaces. Successfully simulated the entire system in MATLAB simscape to study. its
+						performance and dextreity on different surfaces. Using Ansys structural, performed framework's FEA for 
+						optimizing its strength to withstand load of heavieer batteries and parts.
+
 					</p>
 				</div>
 			</div>
