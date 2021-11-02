@@ -57,7 +57,7 @@ function App() {
 					</div>
 					<div className="flexcard_quarter">
 						<h4>OTHERS</h4>
-						<p>Arduino</p>
+						<p>Arduino, MATLAB</p>
 					</div>
 				</div>
 				<h3>EXPERIENCE</h3>
