@@ -7,9 +7,9 @@ function App() {
 			<header className="header">
 				<div className="name">Devank Thawre</div>
 				<div className="college">IIT KHARAGPUR</div>
-				<div className="details"> MANUFACTURING SCIENCE AND ENGINEERING (B.TECH)</div>
+				<div className="details"> MANUFACTURING SCIENCE AND ENGINEERING (DUAL DEGREE)</div>
 				<div className="details"> Dept. of MECHANICAL ENGG.</div>
-				<div className="details"> Expected April 2022</div>
+				<div className="details"> Expected April 2023</div>
 				<img className="header_image-1" src={require('./Assets/pc1.jpg')} alt="image1" />
 				<img className="header_image-2" src={require('./Assets/Pc5.jpg')} alt="image2" />
 				<img className="header_image-3" src={require('./Assets/diff mount.jpg')} alt="image2" />
@@ -28,7 +28,7 @@ function App() {
 						<ul className="course_list">
 							<li>Kinematics of Machines</li>
 							<li>Dynamics </li>
-							<li> Heat Transfer </li>
+							<li>Robotics and Computer Controlled Machines</li>
 							<li>Programming and data structures</li>
 							<li>Basic electronics</li>
 						</ul>
@@ -95,6 +95,21 @@ function App() {
 				<h3>PROJECTS</h3>
 				<div className="content-box">
 					<h4>
+						<span>WALL CLIMBING ROBOT</span>
+					</h4>
+					<p>SUPERVISOR: Dr Dilip Kumar Pratihar | Mechanical Engineering Department</p>
+					<p>August 2021 – Ongoing | IIT Kharagpur</p>
+					<p>
+						Developed a wall climbing robot for climbing huge pipelines, walls, etc which is capable of repairing 
+						damaged parts for the same. Developed the bot's mechanical framework using kinematical design for smooth 
+						translation on irregular surfaces. Successfully simulated the entire system in MATLAB simscape to study. its
+						performance and dextreity on different surfaces. Using Ansys structural, performed framework's FEA for 
+						optimizing its strength to withstand load of heavieer batteries and parts.
+
+					</p>
+				</div>
+				<div className="content-box">
+					<h4>
 						<span>AUTOMATED BATTERY CHANGING BOT</span>
 					</h4>
 					<p>October 2019 – March 2020 | General Championship | IIT Kharagpur</p>
@@ -124,21 +139,7 @@ function App() {
 						to project.
 					</p>
 				</div>
-				<div className="content-box">
-					<h4>
-						<span>WALL CLIMBING ROBOT</span>
-					</h4>
-					<p>SUPERVISOR: Dr Dilip Kumar Pratihar | Mechanical Engineering Department</p>
-					<p>August 2021 – Ongoing | IIT Kharagpur</p>
-					<p>
-						Developed a wall climbing robot for climbing huge pipelines, walls, etc which is capable of repairing 
-						damaged parts for the same. Developed the bot's mechanical framework using kinematical design for smooth 
-						translation on irregular surfaces. Successfully simulated the entire system in MATLAB simscape to study. its
-						performance and dextreity on different surfaces. Using Ansys structural, performed framework's FEA for 
-						optimizing its strength to withstand load of heavieer batteries and parts.
-
-					</p>
-				</div>
+				
 			</div>
 		</React.Fragment>
 	);
