@@ -2,6 +2,17 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #efefef;
+}
+
+#root {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./Assets/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: local;
+	padding: 5vh;
 }
 
 .content,
@@ -10,48 +21,49 @@
 }
 
 .header {
-	background-image: url('./Assets/bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: local;
 	height: 70vh;
-	color: #efefef;
 }
 
-.header > img {
+.header>img {
 	height: 25vh;
 	width: 25vh;
 	position: absolute;
 	z-index: 2;
 	border-radius: 10%;
 }
+
 .header_image-1 {
 	top: 2vh;
 	right: 2vh;
 }
+
 .header_image-2 {
 	bottom: 32vh;
 	right: 90vh;
 }
+
 .header_image-3 {
 	bottom: 30vh;
 	right: 0;
 	height: 25vh !important;
 	width: unset !important;
 }
+
 .header_image-4 {
 	top: 2vh;
 	right: 90vh;
 	height: 25vh !important;
 	width: unset !important;
 }
-.header > video {
+
+.header>video {
 	height: 40vh;
 	position: absolute;
 	top: 15vh;
 	right: 20vh;
 	z-index: 1;
 }
+
 .name {
 	font-size: 7vh;
 	margin-top: 20vh;
@@ -63,6 +75,7 @@
 	font-weight: bold;
 	font-size: 2.2vh;
 }
+
 h3 {
 	text-align: center;
 	font-size: 5vh;
@@ -73,6 +86,7 @@ h3 {
 h4 {
 	font-size: 3.5vh;
 }
+
 ul {
 	list-style: none;
 }
@@ -88,7 +102,7 @@ p {
 	font-size: 2.5vh;
 }
 
-.course_list > li {
+.course_list>li {
 	font-size: 2.5vh;
 }
 
@@ -103,34 +117,43 @@ p {
 	min-width: 200px;
 	text-align: center;
 }
+
 .content-box {
-	margin-top: 2vh;
+	margin-top: 5vh;
 }
+
 a {
 	text-decoration: none;
 }
+
 a:focus,
 a:visited {
 	color: rgb(0, 0, 238);
 }
+
 @media (max-width: 1000px) {
+
 	.header_image-1,
 	.header_image-2,
 	.header_image-3,
 	.header_image-4 {
 		display: none;
 	}
-	.header > video {
+
+	.header>video {
 		position: unset;
 	}
+
 	.name {
 		margin-top: 2vh;
 	}
+
 	.header {
 		padding: 0;
 		text-align: center;
 	}
-	.header > video {
+
+	.header>video {
 		width: 100%;
 		height: unset;
 		margin-top: 5vh;
