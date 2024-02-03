@@ -11,10 +11,13 @@
 		url('./Assets/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	padding: 5vh;
 }
-
+a,a:focus,a:visited {
+	text-decoration: none;
+	color: white;
+}
 .content,
 .header {
 	padding: 50px;
@@ -127,10 +130,7 @@ a {
 	text-decoration: none;
 }
 
-a:focus,
-a:visited {
-	color: rgb(0, 0, 238);
-}
+
 
 @media (max-width: 1000px) {
 

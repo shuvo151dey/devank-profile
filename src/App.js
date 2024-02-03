@@ -88,7 +88,7 @@ function App() {
           <h4>
             <span>RESEARCH INTERN</span> | <span>New York University</span>
           </h4>
-          <p>PROJECT MANAGER: Prof. Vikram Kapila </p>
+          <p>PROJECT MANAGER: Prof. Vikram Kapila | Mechanical Engineering | New York University</p>
           <p>May 2022 – August 2022</p>
           <p>
             Title: Development of an autonomous mobile manipulator for dialysis
@@ -114,14 +114,14 @@ function App() {
             <span>RESEARCH INTERN</span> | <span>ROBEL, CALFORNIA, USA</span>
           </h4>
           <p>
-            PROJECT MANAGER: Vikash Kumar | Research Scientist | PhD UNIVERSITY
-            OF WASHINGTON
+            PROJECT MANAGER: Dr. Vikash Kumar | Adjunct Professor | Carnegie Mellon
+            University
           </p>
           <p>June 2020 – August 2020 | San Francisco</p>
           <p>
             Engineered a cost-effective anthropomorphic hand model
-            (D’Manus)capable of performing diverse day-to-day
-            tasks.Conceptualized a design featuring a 10 degrees of freedom
+            (<a href="https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus" target="_blank"><u>D’Manus</u> <FaExternalLinkAlt /></a>)capable of performing diverse day-to-day
+            tasks. Conceptualized a design featuring a 10 degrees of freedom
             (DOF)robotic hand operating on an R-R-R chain link, employing
             high-performance motors for enhanced functionality.Modeled the
             entire system in a physics engine, facilitating simulationand
@@ -132,15 +132,14 @@ function App() {
         <div className="content-box">
           <h4>
             <span>
-              TeamKART Formula SAE{" "}
-              <a href="https://teamkart.org/">
-                <FaExternalLinkAlt />
+              <a href="https://teamkart.org/" target="_blank">
+                TeamKART Formula SAE <FaExternalLinkAlt />
               </a>
             </span>{" "}
             | <span>POWERTRAIN TEAM MEMBER</span>
           </h4>
           <p>
-            SUPERVISOR: Dr Dhananjay Kumar Srivastava | Mechanical Engineering
+            SUPERVISOR: Dr. Dhananjay Kumar Srivastava | Mechanical Engineering
             Department
           </p>
           <p>September 2018 – January 2020 | IIT Kharagpur</p>
@@ -160,10 +159,10 @@ function App() {
             <span>WALL CLIMBING ROBOT</span>
           </h4>
           <p>
-            SUPERVISOR: Dr Dilip Kumar Pratihar | Mechanical Engineering
+            SUPERVISOR: Dr. Dilip Kumar Pratihar | Mechanical Engineering
             Department
           </p>
-          <p>August 2021 – Ongoing | IIT Kharagpur</p>
+          <p>August 2021 – May 2023 | IIT Kharagpur</p>
           <p>
             Designed and developed a wall-climbing quadruple robot for
             industrial inspections on walls and pipelines. Generated
@@ -213,9 +212,14 @@ function App() {
             natural movement of human fingers. Performed stress analysis on the
             hand for strength optimization within material’s limits. Employed
             Arduino to ensure the effective coordination of the entire hand,
-            enhancing its capability to adapt and grip objects with
-            accuracy.Link to project.
-            <a href="https://drive.google.com/file/d/1Lsa1lI3pPr7f0bubkaYEJXlVyQ0mK5ci/view?usp=sharing">
+            enhancing its capability to adapt and grip objects with accuracy.{" "}
+            <a
+              href="https://drive.google.com/file/d/1Lsa1lI3pPr7f0bubkaYEJXlVyQ0mK5ci/view?usp=sharing"
+              target="_blank"
+            >
+              <i>
+                <u>Link to project.</u>
+              </i>{" "}
               <FaExternalLinkAlt />
             </a>{" "}
           </p>
