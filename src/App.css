@@ -11,7 +11,7 @@
 		url('./Assets/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: local;
+	background-attachment: scroll;
 	padding: 5vh;
 }
 
@@ -96,6 +96,7 @@ ul {
 	align-items: baseline;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	margin-bottom: 20vh;
 }
 
 p {
@@ -119,7 +120,7 @@ p {
 }
 
 .content-box {
-	margin-top: 5vh;
+	margin-top: 6vh;
 }
 
 a {

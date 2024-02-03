@@ -15,6 +15,7 @@ function App() {
           {" "}
           INDUSTRIAL AND SYSTEMS ENGINEERING (M.Tech)
         </div>
+        <div className="details">[DUAL DEGREE]</div>
         <div className="details"> Graduated May 2023</div>
         <img
           className="header_image-1"
@@ -79,7 +80,7 @@ function App() {
           </div>
           <div className="flexcard_quarter">
             <h4>OTHERS</h4>
-            <p>Arduino, MATLAB</p>
+            <p>Arduino | MATLAB</p>
           </div>
         </div>
         <h3>EXPERIENCE</h3>
